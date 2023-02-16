@@ -1,0 +1,110 @@
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+html{
+    font-size: 10px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    font-size: 1.9rem;
+}
+p{
+    font-size: 1.2rem;
+}
+header{
+    width: 100%;
+    height: 5rem;
+    background-color:aliceblue;
+    top: 0;
+    z-index: 333;
+    position: fixed;
+}
+.container{
+    width: 96%;
+    max-width: 117rem;
+    margin: 0 auto;
+}
+.navbar{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1.5rem;
+    align-items: center;
+}
+.navbar h1 {
+    text-transform: uppercase;
+    color: #5b5063;
+    font-weight: 600;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar ul a {
+    font-size: 1.3rem;
+    padding: 1.5rem;
+    text-transform: uppercase;
+    color: #5b5063;
+    font-weight: 400;
+    letter-spacing: 2px;
+    transition: all 0.4s ease;
+}
+.navbar ul a:hover{
+    color: white;
+    background-color: #f4735a;
+}
+.hero {
+    max-width: 114rem;
+    height: 40rem;
+    background: url(Thumbnail.webp) no-repeat center / cover;
+    margin: 5rem auto;
+}
+main{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 80rem;
+    padding: 3rem;
+    border-radius: 1.5rem;
+    margin-top: -15rem;
+    background-color: aliceblue;
+}
+main h2{
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+main .profile-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3rem 0;
+}
+main .profile-container .profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .profile .profile-container{
+    width: 6rem;
+    height: 6rem;
+}
+main .profile-container .profile .text{
+    margin: 0 1rem;
+    color:darkslategrey;
+    font-size: 1.2rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
